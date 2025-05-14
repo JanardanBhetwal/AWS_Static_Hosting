@@ -2,26 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Simple Website</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple static website using HTML and CSS.</p>
+    <h1>📚 My Book Collection</h1>
   </header>
 
-  <main>
-    <section>
-      <h2>About</h2>
-      <p>I built this using just HTML and CSS. No JavaScript here!</p>
-    </section>
-  </main>
+  <div class="book-container">
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/id/8231991-L.jpg" alt="Book Cover" />
+      <div class="book-info">
+        <h2>To Kill a Mockingbird</h2>
+        <p><strong>Author:</strong> Harper Lee</p>
+        <p>A novel about the serious issues of race and rape in the Deep South, seen through the eyes of a child.</p>
+      </div>
+    </div>
 
-  <footer>
-    <p>&copy; 2025 My Website</p>
-  </footer>
+    <div class="book-card">
+      <img src="https://covers.openlibrary.org/b/id/8228691-L.jpg" alt="Book Cover" />
+      <div class="book-info">
+        <h2>1984</h2>
+        <p><strong>Author:</strong> George Orwell</p>
+        <p>A dystopian novel set in a totalitarian society under constant surveillance.</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 
